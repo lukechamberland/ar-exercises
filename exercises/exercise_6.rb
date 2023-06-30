@@ -8,6 +8,9 @@ require_relative './exercise_5'
 puts "Exercise 6"
 puts "----------"
 
+class Store < ActiveRecord::Base
+end
+
 @store1.employees.create(first_name: "Francis", last_name: "Donald", hourly_rate: 60)
 @store1.employees.create(first_name: "John", last_name: "Appleseed", hourly_rate: 50)
 @store1.employees.create(first_name: "Lucy", last_name: "Smith", hourly_rate: 55)
