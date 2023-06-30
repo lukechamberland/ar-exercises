@@ -12,6 +12,7 @@ puts "----------"
 class Store < ActiveRecord::Base
 end
 
+
 puts "Enter store name: "
 
 store_name = gets.chomp
